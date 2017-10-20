@@ -1,0 +1,18 @@
+/*Ejemplo I: Aquí se muestra el valor de position, fixed y como el elemento queda fijado en la estructura, en este caso al pie de página. */
+
+
+p {
+    text-align: justify;
+    width: 1500px;
+    padding: 50px;
+}
+
+/*Aplicando el valor de position como fixed, para el elemento párrafo que se encuentra dentro del id box_b*/
+#box_b p {
+    position: fixed;
+    bottom: 0; 
+	left: 0; 
+    right: 0; 
+    text-align: center;
+    background-color: #ffff00;
+}
